@@ -11,7 +11,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: "Open Sans", sans-serif;
+  font-family: sans-serif;
 }
 
 *, *::before, *::after {
@@ -30,25 +30,30 @@ h1 {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: #0074d9;
+}
+
+header nav li a:hover {
+  background-color: #0074d9;
+  color: #fff;
+}
+
 ul {
   margin: 0;
 }
 
 li {
   display: inline-block;
-  color: #0074d9;
-}
-
-li:hover {
-  background-color: #0074d9;
-  color: #fff;
 }
 
 .title, .nav {
   text-align: center;
 }
 
-@media only screen and (min-width: 21em) {
+@media only screen and (min-width: 38em) {
+
   .title {
     text-align: left;
   }
